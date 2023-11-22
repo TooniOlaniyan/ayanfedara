@@ -16,10 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <NavBar/>
+      <body className="h-screen bg-body-green w-full relative">
+        <div className="bg-body-pattern absolute top-0 left-0 w-full h-full bg-cover mix-blend-multiply opacity-70 bg-no-repeat" />
+        <NavBar />
         <main>{children}</main>
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

@@ -4,13 +4,13 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <nav className="flex-between padding-x padding-y border border-x-secondary-orange">
+    <nav className="flex-between padding-x padding-y">
       <div>
         <Link href="/">ayanfedara</Link>
       </div>
 
       
-        <ul className=" flex-between gap-10">
+        <ul className=" flex-between gap-10 text-text-white">
           {NavLinks.map((item) => (
             <Link className='capitalize' href={item.href} key={item.key}>
               {item.text}

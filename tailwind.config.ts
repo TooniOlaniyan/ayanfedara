@@ -13,20 +13,14 @@ module.exports = {
       },
       colors: {
         "green-100": "#3E432E",
-        "primary-blue": {
-          DEFAULT: "#2B59FF",
-          100: "#F5F8FF",
-        },
-        "secondary-orange": "#f79761",
-        "light-white": {
-          DEFAULT: "rgba(59,60,152,0.03)",
-          100: "rgba(59,60,152,0.02)",
-        },
-        grey: "#747A88",
+        "body-green": "#182d2c",
+        "text-white" : "#cef1e1"
+       
       },
       backgroundImage: {
-        pattern: "url('/pattern.png')",
+        "body-pattern": "url('/pattern1.jpg')",
         "hero-bg": "url('/hero-bg.png')",
+        "flare-pattern" : "url('/flare.jpg')"
       },
     },
   },
