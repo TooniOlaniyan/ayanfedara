@@ -5,7 +5,7 @@ import Suscribe from './Suscribe';
 
 const NavBar = () => {
   return (
-    <nav className="flex-between z-10 padding-x padding-y">
+    <nav className="flex-between sticky top-0 z-50 padding-x padding-y">
       <div>
         <Link className='font-extrabold tracking-[5px] uppercase text-white' href="/">ayanfedara.</Link>
       </div>
