@@ -2,10 +2,10 @@ export const footerLinks = [
   {
     title: "Menu",
     links: [
-      { title: "How we work", url: "/" },
+      { title: "Home", url: "/" },
       { title: "Featured", url: "/" },
       { title: "About", url: "/" },
-      { title: "Bussiness Relation", url: "/" },
+      { title: "Contact Me", url: "/" },
     ],
   },
   {
@@ -14,7 +14,7 @@ export const footerLinks = [
       { title: "Teleram", url: "/" },
       { title: "Instagram", url: "/" },
       { title: "Twitter", url: "/" },
-      { title: "Facebook", url: "/" },
+      { title: "Youtube", url: "/" },
     ],
   },
 ];

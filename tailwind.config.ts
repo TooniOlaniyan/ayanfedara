@@ -13,14 +13,13 @@ module.exports = {
       },
       colors: {
         "green-100": "#3E432E",
-        "body-green": "#182d2c",
-        "text-white" : "#cef1e1"
-       
+        "body-black": "#000000",
+        
       },
       backgroundImage: {
-        "body-pattern": "url('/pattern1.jpg')",
+        // "body-pattern": "url('/pattern3.jpg')",
         "hero-bg": "url('/hero-bg.png')",
-        "flare-pattern" : "url('/flare.jpg')"
+        "flare-pattern": "url('/flare.jpg')",
       },
     },
   },
