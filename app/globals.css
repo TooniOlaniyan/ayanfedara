@@ -14,12 +14,25 @@
 }
 
 /* START: General styles */
+.hero-container{
+  @apply flex flex-wrap justify-center items-end gap-5 text-white p-5
+}
+.heading-hero{
+  @apply text-[5rem] text-white leading-[5rem] tracking-[10px]
+}
+
+.hero-text{
+  @apply w-full font-extrabold flex flex-1 flex-col items-center justify-center
+}
+hero-bold{
+  @apply flex flex-col
+}
 .max-width {
   @apply max-w-[1440px] mx-auto;
 }
 
 .padding-x {
-  @apply sm:px-16 px-6;
+  @apply sm:px-16 px-4;
 }
 
 .padding-y {
@@ -31,7 +44,7 @@
 }
 
 .flex-between {
-  @apply flex justify-between items-center;
+  @apply flex justify-center items-center;
 }
 
 

@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex pr-[20rem] justify-start items-start text-left tracking-tighter leading-[4rem] border-black border-r-[0.1px] w-fit flex-col text-black">
           <p className="font-extrabold text-[5rem] ">AYAN</p>
           <p className="font-extrabold text-[5rem] ">FE</p>
-          <p className="font-extrabold text-[5rem] ">DARA</p>
+          <p className="font-extrabold text-[5rem] ">DARA.</p>
         </div>
         <div className='flex flex-3'>
           {footerLinks.map((link) => (

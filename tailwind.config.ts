@@ -14,10 +14,10 @@ module.exports = {
       colors: {
         "green-100": "#3E432E",
         "body-black": "#000000",
-        
+        "text-green": "#79AC78",
       },
       backgroundImage: {
-        // "body-pattern": "url('/pattern3.jpg')",
+        "body-pattern": "url('/pattern3.jpg')",
         "hero-bg": "url('/hero-bg.png')",
         "flare-pattern": "url('/flare.jpg')",
       },
