@@ -2,11 +2,12 @@ import { NavLinks } from '@/constants'
 import Link from 'next/link'
 import React from 'react'
 import Suscribe from './Suscribe';
+import Image from 'next/image';
 
 const NavBar = () => {
   return (
     <nav className="flex-between sticky top-0 z-50 padding-x padding-y backdrop-blur-[3px]">
-      <div className='flex-1'>
+      <div className="flex-1">
         <Link
           className="font-extrabold tracking-[5px] uppercase text-white"
           href="/"
@@ -14,8 +15,15 @@ const NavBar = () => {
           ayanfedara.
         </Link>
       </div>
+      <Image
+        src="/hamburger-menu.svg"
+        alt="hamburger"
+        width={30}
+        height={30}
+        className="block md:hidden"
+      />
 
-      <ul className="flex-between flex-1 gap-20 text-white border border-opacity-50 border-[#2C3333] rounded-3xl py-3 px-8 bg-gray-800 bg-opacity-30">
+      <ul className="flex-between max-md:hidden md:gap-x-10 flex-1 gap-20 text-white border border-opacity-50 border-[#2C3333] rounded-3xl py-3 px-8 bg-gray-800 bg-opacity-30">
         {NavLinks.map((item) => (
           <Link className="capitalize" href={item.href} key={item.key}>
             {item.text}
@@ -23,7 +31,7 @@ const NavBar = () => {
         ))}
       </ul>
 
-      <div className='flex-1'>
+      <div className="flex-1">
         {/* subscribe to newsletter */}
         <Suscribe />
       </div>

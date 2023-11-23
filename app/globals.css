@@ -47,6 +47,10 @@ hero-bold{
   @apply flex justify-center items-center;
 }
 
+.span__color-one{
+  @apply text-orange-600
+}
+
 
 /* START: Footer styles */
 .footer {
