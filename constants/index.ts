@@ -2,7 +2,7 @@ export const footerLinks = [
   {
     title: "Menu",
     links: [
-      { title: "Home", url: "/" },
+      { title: "Home", url: "/sign-in" },
       { title: "Featured", url: "/" },
       { title: "About", url: "/" },
       { title: "Contact Me", url: "/" },

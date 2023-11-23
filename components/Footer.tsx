@@ -18,7 +18,7 @@ const Footer = () => {
               {link.links.map((item) => (
                 <Link
                   key={item.title}
-                  className="text-gray-500"
+                  className="text-gray-500 cursor-pointer"
                   href={item.url}
                 >
                   {item.title}
