@@ -1,6 +1,6 @@
 import { biographyContent } from '@/constants';
 import React from 'react'
-import Marquee from './Marquee';
+import Marquee from './BioMarquee';
 
 const Biography = () => {
   return (
@@ -24,7 +24,7 @@ const Biography = () => {
       <div className="padding-x">
         {biographyContent.map((item, index) => (
           <p
-            className="mb-4 font-semibold text-[2.3rem] leading-10 text-gray-500 text-center"
+            className="mb-4 font-semibold text-[2rem] leading-10 text-gray-500 text-center"
             key={index}
           >
             {item}

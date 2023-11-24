@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,500;0,600;0,700;0,900;0,1000;1,300&display=swap');
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -26,6 +27,10 @@
 .form_button{
   @apply bg-text-green p-8 -bottom-10 right-[10rem] w-[8rem] h-[8rem] flex items-center justify-center text-[16px] font-bold text-black py-3 px-6 rounded-full absolute
 }
+
+.gallery-container{
+  @apply flex flex-col gap-[5rem]
+}
 .hero__image-overlay {
   @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
 }
@@ -44,6 +49,10 @@
   }
   hero-bold{
     @apply flex flex-col
+  }
+
+  .image-container{
+    @apply flex overflow-hidden
   }
   .max-width {
     @apply max-w-[1440px] mx-auto;
@@ -103,7 +112,7 @@
 }
 
 .footer__copyrights-link {
-  @apply flex-1 flex sm:justify-end justify-center max-sm:mt-4 gap-10;
+  @apply flex-1  items-center flex-wrap flex sm:justify-end justify-center max-sm:mt-4 gap-10;
 }
 /* END: Footer styles */
 
@@ -119,8 +128,9 @@
 }
 
 .marquee {
-  animation: marquee 40s linear infinite;  /* Adjust the animation duration based on your design */
+  animation: marquee 10s linear infinite;  /* Adjust the animation duration based on your design */
 }
+
 
 
 

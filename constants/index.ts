@@ -31,12 +31,22 @@ export const biographyContent = [
   "In the ever-evolving world of crypto, I delve into blockchain projects, assess market trends, and uncover opportunities for growth. My goal is to provide valuable insights that empower others to navigate the digital asset landscape.",
 ];
 
-export const imageData = [
-  "/images/image1.jpg",
-  "/images/image2.jpg",
-  "/images/image3.jpg",
-  "/images/image4.jpg",
-  "/images/image5.jpg",
-  "/images/image6.jpg",
-  "/images/image7.jpg",
+export const marqueeData = [
+  "Entrepreneur",
+  "Investor",
+  "Educator",
+  "Coindesk",
+  "Bianance",
+  "Crypto",
+  "Web3",
+  "NFTs",
+  
+
+];
+
+export const clientImages = [
+  { src: "/portrait1.jpg", alt: "Image 1" },
+  { src: "/portrait2.jpg", alt: "Image 2" },
+  { src: "/portrait3.jpg", alt: "Image 3" },
+  { src: "/portrait4.jpg", alt: "Image 4" },
 ];

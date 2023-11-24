@@ -11,14 +11,14 @@ const Footer = () => {
           <p className="font-extrabold text-[5rem] ">FE</p>
           <p className="font-extrabold text-[5rem] ">DARA.</p>
         </div>
-        <div className='flex flex-3'>
-          {footerLinks.map((link) => (
-            <div key={link.title} className="footer__link">
+        <div className="flex flex-3">
+          {footerLinks.map((link , index) => (
+            <div key={index} className="footer__link">
               <h3 className="font-bold text-black">{link.title}</h3>
-              {link.links.map((item) => (
+              {link.links.map((item , index) => (
                 <Link
-                  key={item.title}
-                  className="text-gray-500 cursor-pointer"
+                  key={index}
+                  className="text-gray-500 "
                   href={item.url}
                 >
                   {item.title}
@@ -39,6 +39,9 @@ const Footer = () => {
             Terms of use
           </Link>
         </div>
+        <Link href="/" className="text-gray-500">
+          Designed and developed: TooniDev
+        </Link>
       </div>
     </footer>
   );
