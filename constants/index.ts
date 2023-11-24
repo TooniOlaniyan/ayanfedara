@@ -30,3 +30,13 @@ export const biographyContent = [
   "As a dedicated financial educator, I empower individuals with the knowledge to make informed financial decisions. From online courses to workshops, I bridge the gap between theory and practice, fostering financial literacy.",
   "In the ever-evolving world of crypto, I delve into blockchain projects, assess market trends, and uncover opportunities for growth. My goal is to provide valuable insights that empower others to navigate the digital asset landscape.",
 ];
+
+export const imageData = [
+  "/images/image1.jpg",
+  "/images/image2.jpg",
+  "/images/image3.jpg",
+  "/images/image4.jpg",
+  "/images/image5.jpg",
+  "/images/image6.jpg",
+  "/images/image7.jpg",
+];

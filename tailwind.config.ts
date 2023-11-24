@@ -14,7 +14,7 @@ module.exports = {
       colors: {
         "green-100": "#3E432E",
         "body-black": "#000000",
-        "text-green": "#79AC78",
+        "text-green": "#58FF8D",
       },
       backgroundImage: {
         "body-pattern": "url('/pattern3.jpg')",

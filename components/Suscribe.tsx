@@ -11,7 +11,7 @@ const Suscribe = () => {
           disabled
         />
       </div>
-      <button className="bg-text-green text-white rounded-full p-8 w-10 h-10 flex items-center justify-center text-[10px]">
+      <button className="bg-text-green text-black font-bold rounded-full p-8 w-10 h-10 flex items-center justify-center text-[10px]">
         Subscribe
       </button>
     </div>
