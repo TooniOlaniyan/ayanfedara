@@ -11,7 +11,7 @@ export const footerLinks = [
   {
     title: "Socials",
     links: [
-      { title: "Teleram", url: "/" },
+      { title: "Telegram", url: "/" },
       { title: "Instagram", url: "/" },
       { title: "Twitter", url: "/" },
       { title: "Youtube", url: "/" },
