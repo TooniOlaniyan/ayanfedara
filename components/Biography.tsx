@@ -14,7 +14,7 @@ const Biography = () => {
 
         <div className="md:w-1/2">
           <h2 className="font-extrabold text-[3.1rem] tracking-tighter leading-[2.5rem] text-gray-300">
-            <span className="span__color-one"> Ayanfedara</span> The Vibe{" "}
+            <span className=""> Ayanfedara</span> The Vibe{" "}
             <span className='text-text-green'>gOD</span>, a versatile professional at the crossroads of{" "}
             <span className="text-text-green">finance</span> and technology.
           </h2>

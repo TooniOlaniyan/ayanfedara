@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="hero-container">
       <div className="hero-text">
         <p className="uppercase  heading-hero ">web-3 </p>
-        <p className="uppercase self-end !text-orange-600  heading-hero">
+        <p className="uppercase self-end !text-text-green  heading-hero">
           Analyst
         </p>
         <p className="uppercase heading-hero">Financial -</p>
@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="flex w-fit">
         <p className="text-gray-400 italic text-sm">
           Streamer on twitch , Finanacial educator ,<br />{" "}
-          <span className="text-orange-600">crypto researcher</span> , using my knowledge and <br /> passion
+          <span className="text-text-green">crypto researcher</span> , using my knowledge and <br /> passion
           to create the next millionaires
         </p>
       </div>

@@ -12,15 +12,16 @@ const NavBar = () => {
           className="font-extrabold tracking-[5px] uppercase text-white"
           href="/"
         >
-          ayanfedara.
+          ayanfendara.
         </Link>
       </div>
+
       <Image
         src="/hamburger-menu.svg"
         alt="hamburger"
         width={30}
         height={30}
-        className="block md:hidden"
+        className="block sm:hidden"
       />
 
       <ul className="flex-between !justify-around max-md:hidden md:gap-x-10 flex-1 gap-20 text-white rounded-3xl py-3 px-2 bg-gray-800 bg-opacity-40">
@@ -30,11 +31,6 @@ const NavBar = () => {
           </Link>
         ))}
       </ul>
-
-      {/* <div className="flex-1 sm:hidden">
-        
-        <Suscribe />
-      </div> */}
     </nav>
   );
 }

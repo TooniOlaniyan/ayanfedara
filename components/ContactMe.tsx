@@ -76,7 +76,7 @@ const ContactMe = () => {
       </div>
       <div className="">
         <h2 className="title">
-          <span className="text-orange-600">You</span> want to reach <br /> out
+          <span>You</span> want to reach <br /> out
           to me?
         </h2>
         <p className="subtitle">Don't be shy, send me a message &#128512;</p>
