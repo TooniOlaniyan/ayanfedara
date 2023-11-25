@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import React from 'react'
 import { useState } from 'react';
+import Suscribe from './Suscribe';
 
 interface FormData {
   name: string
@@ -45,8 +46,7 @@ const ContactMe = () => {
 
         <label className="block mb-4 text-white">
           <span className=" text-white font-bold">
-            How can we reachyou in
-            cyberspace? Your email, please:
+            How can we reachyou in cyberspace? Your email, please:
           </span>
           <input
             className="form_field-input"
@@ -88,6 +88,10 @@ const ContactMe = () => {
             height={70}
             className="rounded-full"
           />
+        </div>
+        <div className="flex-1">
+          {/* subscribe to newsletter */}
+          <Suscribe />
         </div>
       </div>
     </form>

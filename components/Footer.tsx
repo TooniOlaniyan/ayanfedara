@@ -4,7 +4,7 @@ import { footerLinks } from '@/constants';
 
 const Footer = () => {
   return (
-    <footer className="text-white flex flex-col  mt-5 border border-gray-500 rounded-3xl p-10 overflow-auto bg-white">
+    <footer className="text-white flex flex-col  mt-5 border border-gray-500 sticky bottom-0 rounded-3xl p-10 overflow-auto bg-orange-600">
       <div className="flex justify-around items-center">
         <div className="flex pr-[20rem] justify-start items-start text-left tracking-tighter leading-[4rem] border-black border-r-[0.1px] w-fit flex-col text-black">
           <p className="font-extrabold text-[5rem] ">AYAN</p>
@@ -14,11 +14,11 @@ const Footer = () => {
         <div className="flex flex-3">
           {footerLinks.map((link , index) => (
             <div key={index} className="footer__link">
-              <h3 className="font-bold text-black">{link.title}</h3>
+              <h3 className="font-extrabold text-black">{link.title}</h3>
               {link.links.map((item , index) => (
                 <Link
                   key={index}
-                  className="text-gray-500 "
+                  className="text-white "
                   href={item.url}
                 >
                   {item.title}
@@ -29,17 +29,17 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-between items-center flex-wrap mt-10 border-t-[0.1px] border-black sm:px-16 px-6 py-10">
-        <p className="text-gray-500">&copy; 2023 AYANFEDARA </p>
-        <p className="text-gray-500">All rights reserved</p>
+        <p className="text-white">&copy; 2023 AYANFEDARA </p>
+        <p className="text-white">All rights reserved</p>
         <div className="footer__copyright-link">
-          <Link href="/" className="text-gray-500 mr-5">
+          <Link href="/" className="text-white mr-5">
             Privacy policy
           </Link>
-          <Link href="/" className="text-gray-500">
+          <Link href="/" className="text-white">
             Terms of use
           </Link>
         </div>
-        <Link href="/" className="text-gray-500">
+        <Link href="/" className="text-white">
           Designed and developed: TooniDev
         </Link>
       </div>

@@ -24,7 +24,7 @@ const Biography = () => {
       <div className="padding-x">
         {biographyContent.map((item, index) => (
           <p
-            className="mb-4 font-semibold text-[2rem] leading-10 text-gray-500 text-center"
+            className="mb-4 font-semibold text-[1.7rem] leading-10 text-gray-500 text-center"
             key={index}
           >
             {item}

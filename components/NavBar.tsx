@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const NavBar = () => {
   return (
-    <nav className="flex-between sticky top-0 z-50 padding-x padding-y backdrop-blur-[3px]">
+    <nav className="flex-between sticky top-0 z-50 padding-x padding-y backdrop-blur-[5px]">
       <div className="flex-1">
         <Link
           className="font-extrabold tracking-[5px] uppercase text-white"
@@ -23,7 +23,7 @@ const NavBar = () => {
         className="block md:hidden"
       />
 
-      <ul className="flex-between max-md:hidden md:gap-x-10 flex-1 gap-20 text-white border border-opacity-50 border-[#2C3333] rounded-3xl py-3 px-8 bg-gray-800 bg-opacity-30">
+      <ul className="flex-between !justify-around max-md:hidden md:gap-x-10 flex-1 gap-20 text-white rounded-3xl py-3 px-2 bg-gray-800 bg-opacity-40">
         {NavLinks.map((item) => (
           <Link className="capitalize" href={item.href} key={item.key}>
             {item.text}
@@ -31,10 +31,10 @@ const NavBar = () => {
         ))}
       </ul>
 
-      <div className="flex-1">
-        {/* subscribe to newsletter */}
+      {/* <div className="flex-1 sm:hidden">
+        
         <Suscribe />
-      </div>
+      </div> */}
     </nav>
   );
 }
