@@ -2,9 +2,9 @@ export const footerLinks = [
   {
     title: "Menu",
     links: [
-      { title: "Home", url: "/sign-in" },
-      { title: "Featured", url: "/" },
+      { title: "Home", url: "/" },
       { title: "About", url: "/" },
+      { title: "Gallery", url: "/" },
       { title: "Contact Me", url: "/" },
     ],
   },

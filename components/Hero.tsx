@@ -14,7 +14,7 @@ const Hero = () => {
       </div>
       <div className="flex w-fit">
         <p className="text-gray-400 italic text-sm">
-          Streamer on twitch , Finanacial educator ,<br />{" "}
+          Streamer on HTX,Binance,Gate Finanacial educator ,<br />{" "}
           <span className="text-text-green">crypto researcher</span> , using my knowledge and <br /> passion
           to create the next millionaires
         </p>

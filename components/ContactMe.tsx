@@ -60,7 +60,7 @@ const ContactMe = () => {
 
         <label className="block mb-4 ">
           <span className=" text-white font-bold">
-            <span className="text-orange-600">Ready</span>, set, type! What's
+            <span className="text-text-green">Ready</span>, set, type! What's
             the message:
           </span>
           <textarea
