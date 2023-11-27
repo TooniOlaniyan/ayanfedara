@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,500;0,600;0,700;0,900;0,1000;1,300&display=swap');
 
 
-@tailwind base;
+@tailwind  base;
 @tailwind components;
 @tailwind utilities;
 
@@ -33,13 +33,13 @@
 }
 
 .gallery-container{
-  @apply flex flex-col gap-[5rem]
+  @apply flex justify-center items-center flex-col gap-[5rem]
 }
 .hero__image-overlay {
   @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
 }
 .hero-container{
-  @apply flex flex-wrap justify-center items-end gap-5 text-white p-5
+  @apply flex  flex-wrap justify-center items-end gap-5 text-white p-5
 }
 .heading-hero{
   @apply text-[5rem] text-white leading-[5rem] tracking-[10px]
@@ -56,7 +56,7 @@
   }
 
   .image-container{
-    @apply flex overflow-hidden
+    @apply flex w-[97vw] h-[40rem]  justify-start gap-[1rem] items-center overflow-x-scroll
   }
   .max-width {
     @apply max-w-[1440px] mx-auto;
@@ -137,6 +137,21 @@
   animation: marquee 10s linear infinite;  /* Adjust the animation duration based on your design */
 }
 
+
+@layer utilities {
+    @variants responsive {
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+    }
+  }
 
 
 

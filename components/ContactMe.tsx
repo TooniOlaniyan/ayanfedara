@@ -25,6 +25,11 @@ const ContactMe = () => {
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
+    setFormData((prevState) => ({
+      ...prevState,
+      [e.target.id]:e.target.value
+
+    }))
 
   };
   return (
@@ -37,6 +42,7 @@ const ContactMe = () => {
           <input
             className="form_field-input"
             type="text"
+            id='name'
             name="name"
             placeholder="John Doe *"
             value={formData.name}
@@ -51,6 +57,7 @@ const ContactMe = () => {
           <input
             className="form_field-input"
             type="email"
+            id='email'
             name="email"
             placeholder="eg johndoe@gmail.com*"
             value={formData.email}
@@ -66,13 +73,14 @@ const ContactMe = () => {
           <textarea
             className="form_field-input h-[10rem] resize-none"
             name="message"
+            id='message'
             placeholder="Hello Ayanfedara, can you tell me about....*"
             value={formData.message}
             onChange={handleChange}
           />
         </label>
 
-        <button className="form_button">send it in</button>
+        <button type='submit'className="form_button">send it in</button>
       </div>
       <div className="">
         <h2 className="title">
