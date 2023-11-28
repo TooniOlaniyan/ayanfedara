@@ -1,7 +1,6 @@
 import { NavLinks } from '@/constants'
 import Link from 'next/link'
 import React from 'react'
-import Suscribe from './Suscribe';
 import Image from 'next/image';
 
 const NavBar = () => {
@@ -24,7 +23,7 @@ const NavBar = () => {
         className="block sm:hidden"
       />
 
-      <ul className="flex-between !justify-around max-md:hidden md:gap-x-10 flex-1 gap-20 text-white rounded-3xl py-3 px-2 bg-gray-800 bg-opacity-40">
+      <ul className="hidden md:flex flex-between !justify-around max-md:hidden md:gap-x-10 flex-1 gap-20 text-white rounded-3xl py-3 px-2 bg-gray-800 bg-opacity-40">
         {NavLinks.map((item) => (
           <Link className="capitalize" href={item.href} key={item.key}>
             {item.text}
