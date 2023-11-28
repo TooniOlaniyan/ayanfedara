@@ -34,7 +34,7 @@ const ContactMe = () => {
   };
   return (
     <form className=" form mb-[10rem]  padding-x padding-y">
-      <div className="flex relative flex-1 flex-col gap-[4rem]">
+      <div className="flex relative flex-1 flex-col gap-[7rem] ">
         <label className="">
           <span className=" text-white font-bold">
             What do your friends call you?
@@ -52,7 +52,7 @@ const ContactMe = () => {
 
         <label className="block mb-4 text-white">
           <span className=" text-white font-bold">
-            How can we reachyou in cyberspace? Your email, please:
+            How can we reach you in cyberspace? Your email, please:
           </span>
           <input
             className="form_field-input"

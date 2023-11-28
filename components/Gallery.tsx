@@ -16,7 +16,7 @@ const Gallery = () => {
   }, []);
   return (
     <section ref={galleryRef} className="gallery-container">
-      <div className="header self-end pr-5">
+      <div className="header self-end  pr-0 sm:pr-5">
         <h2 className="heading1 text-white">
           Ga<span className="text-text-green">ll</span>ery
         </h2>
@@ -25,7 +25,7 @@ const Gallery = () => {
         <div ref={testRef} className="image-container">
           {clientImages.map((image, index) => (
             <Image
-              className="object-contain rounded-md saturate-50"
+              className="object-contain w-[90vw] sm:w-fit rounded-md saturate-50"
               key={index}
               src={image.src}
               alt={image.alt}

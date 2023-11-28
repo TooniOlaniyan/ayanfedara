@@ -23,13 +23,13 @@
 @apply flex flex-wrap-reverse justify-center items-baseline gap-[4rem]  p-5 text-white;
 }
 .form_field-input {
-@apply w-[85%] bg-transparent border-b-[1px] border-opacity-50 border-white outline-none focus:border-gray-300 mt-8 text-white p-4;
+@apply w-[95%] bg-transparent border-b-[1px] border-opacity-50 border-white outline-none focus:border-gray-300 mt-8 text-white p-4;
 }
 .form_label{
   @apply block mb-4 font-bold text-2xl
 }
 .form_button{
-  @apply bg-text-green p-8 -bottom-10 right-[10rem] w-[8rem] h-[8rem] flex items-center justify-center text-[16px] font-bold text-black py-3 px-6 rounded-full absolute
+  @apply bg-text-green p-8 -bottom-10 right-[2rem] sm:right-[8rem] w-[8rem] h-[8rem] flex items-center justify-center text-[16px] font-bold text-black py-3 px-6 rounded-full absolute
 }
 
 .gallery-container{
@@ -39,13 +39,13 @@
 @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
 }
 .hero-container{
-  @apply flex  flex-wrap justify-center items-end gap-5 text-white p-5
+  @apply sm:flex flex-wrap justify-center items-end gap-5 sm:gap-2 text-white p-5
 }
 .heading-hero{
   @apply sm:text-[5rem] text-white leading-[5rem] tracking-[10px]
 }
  .heading1 {
-   @apply text-[64px] leading-[67.2px] font-bold;
+   @apply text-[40px] sm:text-[64px] leading-[67.2px] font-bold;
   }
   
   .hero-text{
@@ -87,7 +87,7 @@
   @apply text-[15px]  text-gray-500 font-thin mt-5;
 }
 .title {
-  @apply leading-6 2xl:text-[72px] sm:text-[34px] text-[50px] font-extrabold;
+  @apply leading-6 2xl:text-[72px] sm:text-[34px] text-[30px] font-extrabold;
 }
 
 
