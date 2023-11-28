@@ -5,7 +5,7 @@ import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <main className="w-full flex flex-col gap-[6rem] sm:gap-[14rem]">
+    <main className="w-full flex flex-col gap-[6rem] sm:gap-[15rem]">
       <Hero/>
       <Biography/>
       <Gallery/>
