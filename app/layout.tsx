@@ -19,7 +19,7 @@ export default function RootLayout({
       <body className="min-h-screen overflow-auto bg-body-black w-full relative">
         <div className="body_overlay" />
         <NavBar />
-        <main className='relative z-10 mt-8 mb-8'>{children}</main>
+        <main className='relative z-10 mt-5 mb-5 sm:mb-8 sm:mt-8'>{children}</main>
         <Footer />
       </body>
     </html>
