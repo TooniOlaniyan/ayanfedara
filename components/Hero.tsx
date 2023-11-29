@@ -6,11 +6,11 @@ const Hero = () => {
     <section className="hero-container">
       <div className="hero-text">
         <p className="uppercase text-[2rem]  heading-hero ">web-3 </p>
-        <p className="uppercase text-[2rem]   self-end !text-text-green  heading-hero">
+        <p className="uppercase text-[2rem]   sm:self-end !text-text-green  heading-hero">
           Analyst
         </p>
         <p className="uppercase text-[2rem]   heading-hero">Financial -</p>
-        <p className="uppercase text-[2rem]   heading-hero self-end">Analyst</p>
+        <p className="uppercase text-[2rem]   heading-hero sm:self-end">Analyst</p>
       </div>
       <div className="flex w-fit">
         <p className=" text-gray-400 sm:italic text-sm text-[1rem]">

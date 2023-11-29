@@ -1,9 +1,14 @@
+'use client'
+
 import { NavLinks } from '@/constants'
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image';
 
 const NavBar = () => {
+  const handleClick = () => {
+
+  }
   return (
     <nav className="flex-between sticky top-0 z-50 padding-x padding-y backdrop-blur-[5px]">
       <div className="flex-1">
@@ -21,6 +26,7 @@ const NavBar = () => {
         width={30}
         height={30}
         className="block sm:hidden"
+        onClick={handleClick}
       />
 
       <ul className="hidden md:flex flex-between !justify-around max-md:hidden md:gap-x-10 flex-1 gap-20 text-white rounded-3xl py-3 px-2 bg-gray-800 bg-opacity-40">

@@ -4,12 +4,12 @@ import { footerLinks } from '@/constants';
 
 const Footer = () => {
   return (
-    <footer className="text-white flex flex-col  mt-5 border border-gray-500 rounded-3xl p-10 overflow-auto bg-text-green">
-      <div className="flex justify-around items-center">
-        <div className="flex pr-[20rem] justify-start items-start text-left tracking-tighter leading-[4rem] border-black border-r-[0.1px] w-fit flex-col text-black">
-          <p className="font-extrabold text-[5rem] ">AYAN</p>
-          <p className="font-extrabold text-[5rem] ">FEN</p>
-          <p className="font-extrabold text-[5rem] ">DARA.</p>
+    <footer className="text-white flex flex-col  mt-5  p-3 sm:p-10 overflow-auto bg-text-green">
+      <div className="flex flex-col gap-5 sm:gap-0 sm:flex-row justify-start sm:justify-around items-start sm:items-center">
+        <div className="flex pr-[0.6rem] sm:pr-[20rem] justify-start items-start text-left tracking-tighter leading-[4rem] border-r-0 border-black sm:border-r-[0.1px] w-fit flex-col text-black">
+          <p className="font-extrabold text-[3rem] sm:text-[5rem] ">AYAN</p>
+          <p className="font-extrabold text-[3rem] sm:text-[5rem] ">FEN</p>
+          <p className="font-extrabold text-[3rem] sm:text-[5rem] ">DARA.</p>
         </div>
         <div className="flex flex-3">
           {footerLinks.map((link , index) => (
@@ -29,7 +29,7 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="flex justify-between text-sm items-center flex-wrap mt-10 border-t-[0.1px] border-black sm:px-16 px-6 py-10">
+      <div className="flex flex-col sm:flex-row justify-between text-[1rem] sm:text-sm items-center flex-wrap mt-6 sm:mt-10 border-t-[0.1px] border-black sm:px-16 px-6 py-10">
         <p className="text-black">&copy; 2023 AYANFENDARA </p>
         <p className="text-black">All rights reserved</p>
         <div className="footer__copyright-link">

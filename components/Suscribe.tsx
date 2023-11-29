@@ -2,7 +2,7 @@ import React from 'react'
 
 const Suscribe = () => {
   return (
-    <div className=" p-4 flex justify-center gap-8 items-center">
+    <div className=" p-4 flex justify-between sm:justify-center gap-8 items-center">
       <div className="border-b-[0.2px] w-fit border-opacity-20 border-white">
         <input
           type="email"
