@@ -1,5 +1,6 @@
 'use client'
 import { NavLinks } from '@/constants'
+import { Turn as Hamburger } from 'hamburger-react'
 import Link from 'next/link'
 import React , {useState} from 'react'
 import Image from 'next/image';
@@ -24,14 +25,15 @@ const NavBar = () => {
         </Link>
       </div>
 
-      <Image
+      {/* <Image
         src="/hamburger-menu.svg"
         alt="hamburger"
         width={30}
         height={30}
         className="block cursor-pointer sm:hidden"
         onClick={handleMobileNavToggle}
-      />
+      /> */}
+      <Hamburger color='#fff' toggled={isMobileOpen} toggle={handleMobileNavToggle} />
       <MobileNav isOpen={isMobileOpen} onClose={handleMobileNavToggle} />
       
 

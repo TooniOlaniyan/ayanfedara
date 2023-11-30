@@ -13,6 +13,9 @@
   font-family: "Manrope", sans-serif;
   font-family: "Mulish", sans-serif;
 }
+body{
+  overflow:hidden
+}
 
 /* START: General styles */
 
