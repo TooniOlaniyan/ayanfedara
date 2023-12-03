@@ -1,6 +1,5 @@
 'use client'
 import { NavLinks } from '@/constants'
-import { Turn as Hamburger } from 'hamburger-react'
 import Link from 'next/link'
 import React , {useState} from 'react'
 import Image from 'next/image';
@@ -33,7 +32,8 @@ const NavBar = () => {
         className="block cursor-pointer sm:hidden"
         onClick={handleMobileNavToggle}
       /> */}
-      <Hamburger color='#fff' toggled={isMobileOpen} toggle={handleMobileNavToggle} />
+      <p   className="block cursor-pointer  text-[1.2rem] text-text-green sm:hidden"
+        onClick={handleMobileNavToggle}>Menu</p>
       <MobileNav isOpen={isMobileOpen} onClose={handleMobileNavToggle} />
       
 
